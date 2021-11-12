@@ -14,5 +14,12 @@ public class StudentSetDemo {
         students.add(susi);
 
         System.out.println("students = " + students);
+
+        students.add(susi);
+        System.out.println("students = " + students);
+
+        // student entfernen
+        students.remove(susi);
+        System.out.println("students = " + students);
     }
 }
