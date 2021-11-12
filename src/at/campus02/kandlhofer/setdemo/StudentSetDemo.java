@@ -8,6 +8,11 @@ public class StudentSetDemo {
         // neues Set deklarieren
         HashSet<String> students = new HashSet<>();
 
+        // Studenten (vor und nachname) hinzufügen
+        students.add("Max Mustermann");
+        String susi = "Susi Sorglos";
+        students.add(susi);
 
+        System.out.println("students = " + students);
     }
 }
