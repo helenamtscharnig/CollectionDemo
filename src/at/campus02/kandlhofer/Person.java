@@ -25,6 +25,11 @@ public class Person {
         return lastName;
     }
 
+    public Person setLastName(String lastName) {
+        this.lastName = lastName;
+        return this;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o)
@@ -38,10 +43,5 @@ public class Person {
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName);
-    }
-
-    public Person setLastName(String lastName) {
-        this.lastName = lastName;
-        return this;
     }
 }
