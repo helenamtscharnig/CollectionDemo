@@ -21,5 +21,14 @@ public class StudentSetDemo {
         // student entfernen
         students.remove(susi);
         System.out.println("students = " + students);
+
+        // student enthalten
+        boolean isSusiInSet = students.contains(susi);
+        boolean isMaxInSet = students.contains("Max Mustermann"); // STRG + ALT + V -> variable erzeugen lassen
+        System.out.println("isSusiInSet = " + isSusiInSet);
+        System.out.println("isMaxInSet = " + isMaxInSet);
+
+
+
     }
 }
