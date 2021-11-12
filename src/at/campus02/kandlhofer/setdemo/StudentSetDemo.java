@@ -10,6 +10,8 @@ public class StudentSetDemo {
 
         // Studenten (vor und nachname) hinzufügen
         students.add("Max Mustermann");
+
+        // Übergabe der Variable susi an das Set
         String susi = "Susi Sorglos";
         students.add(susi);
 
@@ -28,6 +30,13 @@ public class StudentSetDemo {
         System.out.println("isSusiInSet = " + isSusiInSet);
         System.out.println("isMaxInSet = " + isMaxInSet);
 
+        // susi nochmals hinzufügen
+        students.add(susi);
+
+        // Jeden Studenten im Set ausgeben
+        for (String student : students) { // für jeden Studenten in students
+            System.out.println("student = " + student);
+        }
 
 
     }
